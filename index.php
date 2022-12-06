@@ -13,7 +13,7 @@
 <div class="header">User Login</div>
 <div class="content_div">
     <div class="error_message" id="auth_error"></div>
-    <form action="/inventory.php">
+    <form action="inventory.php">
         <div class="form-field">
             <input type="text" id="username" minlength="1" maxlength="50"
                    autofocus="autofocus"

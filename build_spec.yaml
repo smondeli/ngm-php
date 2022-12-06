@@ -15,9 +15,9 @@ steps:
   - type: Command
     name: "Build app"
     command: |
-      zip -r ${OCI_PRIMARY_SOURCE_DIR}/ngm-php.zip ${OCI_PRIMARY_SOURCE_DIR}
+      zip -r ngm-php.zip .
 
 outputArtifacts:
   - name: ngm-php-zip
     type: BINARY
-    location: ${OCI_PRIMARY_SOURCE_DIR}/ngm-php.zip
+    location: ngm-php.zip

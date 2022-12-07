@@ -7,7 +7,7 @@
 <body>
 <div class="title" id="market">
     <img class="title_img" src="images/logo_transparent.png" height="100%"   />
-    <p class="title_p">New Neighbourhood Grocery Market</p>
+    <p class="title_p">Neighbourhood Grocery Market</p>
 </div>
 
 <div class="header">User Login</div>

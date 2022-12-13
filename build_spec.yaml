@@ -15,6 +15,7 @@ steps:
   - type: Command
     name: "Build app"
     command: |
+      rm -rf .git
       zip -r ngm-php.zip .
 
 outputArtifacts:

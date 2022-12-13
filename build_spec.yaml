@@ -15,7 +15,7 @@ steps:
   - type: Command
     name: "Build app"
     command: |
-      zip -r ngm-php.zip . -x "*.*" -x "build_spec.yaml"
+      zip -r ngm-php.zip . -x "*.DS_Store" "*.git*" "*.idea*" "build_spec.yaml" "README.md"
 
 outputArtifacts:
   - name: ngm-php-zip
